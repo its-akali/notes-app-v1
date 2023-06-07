@@ -1,0 +1,62 @@
+:root {
+    --iconSize: fit-content;
+}
+
+.backgroundContainer {
+    width: 90%;
+}
+
+.userMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.userMenu a {
+    text-decoration: none;
+}
+
+.menuOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.menuOption i {
+    font-size: 20px;
+    margin-bottom: 0.3rem;
+}
+
+.menuOption {
+    transition: transform 0.2s ease-in;
+}
+
+.userMenu a:hover .menuOption {
+    transform: scale(1.1);
+}
+
+.userNotes li {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--aqua);
+    padding: 0.5rem;
+    border: 1px solid var(--aqua);
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    transition: transform 0.2s ease-in, box-shadow 0.2s ease-in,
+        font-weight 0.2s ease-in;
+}
+
+.userNotes li a {
+    color: black;
+}
+
+.userNotes li:hover {
+    transform: scale(1.03);
+    box-shadow: 1px 1px 10px 7px rgba(255, 255, 255, 0.589);
+    font-weight: bold;
+    cursor: pointer;
+}

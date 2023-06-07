@@ -1,0 +1,43 @@
+.backgroundContainer {
+    text-align: left;
+}
+
+h1 {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.noteOptions {
+    width: 100%;
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.noteOptions button {
+    border: 1px solid orangered;
+    border-radius: 5px;
+    padding: 0.5rem 0.8rem;
+    margin-left: 0.5rem;
+    background-color: orangered;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.noteOptions button:last-child {
+    background-color: red;
+    border: 1px solid red;
+}
+
+.noteOptions button:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.noteOptions button:hover {
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+.noteOptions button:last-child:hover {
+    border: 1px solid red;
+    color: red;
+}

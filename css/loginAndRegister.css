@@ -1,0 +1,33 @@
+.loginOrRegister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.loginOrRegister button {
+    padding: 0.6rem;
+    width: 50%;
+    border: none;
+    background: none;
+    font-size: 16px;
+}
+
+.loginOrRegister button:disabled {
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid var(--darkerPurple);
+}
+
+.errorInput {
+    border: 1px solid red;
+    background-color: var(--melon);
+}
+
+.errorMessage {
+    display: none;
+    color: red;
+    margin-left: 0.3rem;
+    font-style: italic;
+    font-size: 14px;
+}

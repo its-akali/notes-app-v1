@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Notion</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/newNote.css" />
+    </head>
+    <body>
+        <main class="backgroundContainer">
+            <a href="home.html" class="noTextDecorLink back">
+                <i class="fa-solid fa-angle-left"></i> Volver
+            </a>
+            <form action="">
+                <div class="labelAndInput">
+                    <label for="newNoteTitle">Título de la nota</label>
+                    <input
+                        type="text"
+                        name="newNoteTitle"
+                        id="newNoteTitle"
+                        placeholder="Título"
+                    />
+                </div>
+                <div class="labelAndInput">
+                    <label for="newNoteContent">Contenido de la nota</label>
+                    <textarea
+                        name="newNoteContent"
+                        id="newNoteContent"
+                        cols="30"
+                        rows="10"
+                        placeholder="Contenido de la nota"
+                    ></textarea>
+                </div>
+                <input type="submit" value="Guardar" />
+            </form>
+        </main>
+    </body>
+    <script
+        src="https://kit.fontawesome.com/3342157087.js"
+        crossorigin="anonymous"
+    ></script>
+</html>

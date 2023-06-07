@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Notion</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/home.css" />
+    </head>
+    <body>
+        <main class="backgroundContainer">
+            <h1>Tus apuntes</h1>
+            <ul class="userMenu noStyleList">
+                <li>
+                    <a href="newNote.html" class="noTextDecorLink">
+                        <div class="menuOption create">
+                            <i class="fa-solid fa-notes-medical"></i>
+                            Crear
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="noTextDecorLink">
+                        <div class="menuOption edit">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            Editar
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="noTextDecorLink">
+                        <div class="menuOption delete">
+                            <i class="fa-solid fa-trash-can"></i>
+                            Borrar
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="userNotes noStyleList">
+                <li>
+                    Nota 1
+                    <div>
+                        <i class="fa-solid fa-pen-to-square edit"></i>
+                        <i class="fa-solid fa-trash-can delete"></i>
+                    </div>
+                </li>
+                <li>
+                    Nota 2
+                    <div>
+                        <a href="#" class="noTextDecorLink">
+                            <i class="fa-solid fa-pen-to-square edit"></i>
+                        </a>
+                        <i class="fa-solid fa-trash-can delete"></i>
+                    </div>
+                </li>
+            </ul>
+        </main>
+    </body>
+    <script
+        src="https://kit.fontawesome.com/3342157087.js"
+        crossorigin="anonymous"
+    ></script>
+    <script src="./js/home.js"></script>
+</html>
